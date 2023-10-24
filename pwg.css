@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    margin-top: 4vw;
+    border-radius: 3vw;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 35vw;
+    background-color: rgb(133, 133, 223);
+    justify-content: center;
+    align-items: center;
+}
+.password-length{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

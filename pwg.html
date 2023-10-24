@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pwg.css">
+    <title>Document</title>
+    <script src="pwg.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h2> Password Generator </h2>
+        <div class="password-length">
+            <h4> Password Length:</h4>
+            <input id="input-area" type="number">
+            <button class="button"> Generate </button>
+        </div>
+        <div class="output">
+            <p> output here </p>
+        </div>
+        <div class="choices">
+            <ul>
+                <li type="none"> <input type="checkbox" id="number"> Include Numbers </li>
+                <li type="none"> <input type="checkbox" id="upper"> Include UpperCase alphabets </li>
+                <li type="none"> <input type="checkbox" id="lower"> Include LowerCase alphabets </li>
+                <li type="none"> <input type="checkbox" id="special"> Include Special Symbols </li>
+                <li type="none"> <input type="checkbox" id="duplicate"> Exclude Duplicate Characters </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
