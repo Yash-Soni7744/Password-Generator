@@ -20,6 +20,7 @@ body,html{
     align-items: center;
 }
 .password-length{
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
